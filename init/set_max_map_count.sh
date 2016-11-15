@@ -15,5 +15,3 @@ if [[ $var -lt 262144 ]]; then
   echo "max_map_count is ${var}.  Going to set to 262144"
   echo '262144' > $mmcount_path
 fi
-
-sleep 10000
