@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: setmaxmapcount
+spec:
+  containers:
+    - name: setmaxmapcount
+      image: quay.io/coffeepac/set_max_map_count
+      volumeMounts:
+      - name: hostproc
+        mountPath: /hostproc
+  volumes:
+    - name: hostproc
+      hostPath: 
+        path: /proc
+      
