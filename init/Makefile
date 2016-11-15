@@ -14,7 +14,7 @@
 
 all: push
 
-TAG = 0.1
+TAG = 1.1
 PREFIX = quay.io/samsung_cnct/set_max_map_count
 
 container:
