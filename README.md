@@ -1,3 +1,7 @@
+# deprecated
+
+Please note this repo is no longer maintained. 
+
 # set_max_map_count
 image for ensuring that the kernel setting vm.map_max_count is the minimum value for running elasticsearch
 
